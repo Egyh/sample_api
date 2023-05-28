@@ -106,3 +106,55 @@ main {
   vertical-align: baseline;
   border-radius: .25em;
 }
+
+.Unknow {
+  background-color: lightgray
+}
+
+.Other {
+  background-color: lightgray
+}
+
+.Person {
+  background-color: #ff7f7f
+}
+
+.Location {
+  background-color: #ff7fbf
+}
+
+.Organization {
+  background-color: #ff7fff
+}
+
+.Event {
+  background-color: #bf7fff	
+}
+
+.Artwork {
+  background-color: #7f7fff
+}
+
+.Consumer {
+  background-color: #7fbfff
+}
+
+.Phonenumber {
+  background-color: #7fffff
+}
+
+.Address {
+  background-color: #7fffbf
+}
+
+.Date {
+  background-color: #7fff7f
+}
+
+.Number {
+background-color: #bfff7f
+}
+
+.Price {
+  background-color: #ffff7f
+}

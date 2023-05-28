@@ -23,6 +23,7 @@
 
   def show
     @list = List.find(params[:id])
+    #get_dataから取得したそれぞれの値を@entitiesへいれる
     @entities = Language.get_data(@list.body)
   end
 

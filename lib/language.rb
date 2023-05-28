@@ -26,7 +26,7 @@ module Language
       if (error = response_body['error']).present?
         raise error['message']
       else
-      
+      #ここでnameとtypeを結合して抽出
         response_body['entities'].pluck('name','type')
       end
     end
