@@ -27,7 +27,8 @@ module Language
         raise error['message']
       else
       #ここでnameとtypeを結合して抽出
-        response_body['entities'].pluck('name','type')
+   
+        response_body['entities'].pluck('name','type','salience','metadata')
       end
     end
   end
