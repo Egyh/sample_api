@@ -19,5 +19,16 @@ module SampleAppDemoApi
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    # 言語ファイルのパス
+    I18n.load_path += Dir[Rails.root.join("config/locales/*.{rb,yml}")]
+    
+    # 使用する言語ファイル
+    config.i18n.available_locales = %i(ja en)
+    
+    # 言語ファイルがない場合はエラーを出すか
+    config.i18n.enforce_available_locales = true
+    
+    # デフォルトの言語
+    config.i18n.default_locale = :ja
   end
 end

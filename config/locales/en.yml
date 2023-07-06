@@ -31,3 +31,9 @@
 
 en:
   hello: "Hello world"
+  homes:
+    top:
+      title: "Here is a top page"
+  todolists:
+    index:
+      title: "All lists"
